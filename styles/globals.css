@@ -103,17 +103,8 @@ header {
     margin-bottom: 2rem;
 }
 
-.header-bottom-side-left button {
-    border: none;
-    cursor: pointer;
-    background-color: #04ff00;
-    color: #000;
-    padding: .8rem 3.8rem;
-    border-radius: 9999px;
-    border: 1px solid #000;
-    font-weight: 500;
-    font-size: 1.1rem;
-    transition: all .2s;
+.header-bottom-side-left a {
+    padding: .9rem 4rem;
 }
 
 .header-bottom-side-left button:hover {
@@ -168,6 +159,10 @@ header {
 
     .show-menu nav {
         display: block;
+    }
+
+    .header-bottom-side-left {
+        margin-bottom: 60px;
     }
 }
 
@@ -269,4 +264,18 @@ main {
 
 .buy-product:hover {
     background-color: #0cd809;
+}
+
+.exclusive-container {
+    color: #fff;
+    flex-direction: row-reverse;
+    padding: 5rem 1rem;
+}
+
+.exclusive-container img {
+    max-width: 500px;
+}
+
+.exclusive-container a {
+    padding: .9rem 4rem;
 }
