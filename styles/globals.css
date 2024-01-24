@@ -281,3 +281,38 @@ main {
 .exclusive-container a {
     padding: .9rem 4rem;
 }
+
+/* Media Query */
+
+@media (max-width: 800px) {
+    .section-title {
+        font-size: 1rem;
+    }
+
+    .cols-3 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .cols-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-name, .product-price, .rate {
+        max-height: 1rem;
+        overflow: hidden;
+        font-size: .8rem;
+    }
+
+    .cols .buy-product {
+        padding: 12px;
+        font-size: 1rem;
+    }
+
+    .exclusive-container {
+        flex-direction: column-reverse;
+    }
+
+    .exclusive-container img {
+        margin-bottom: 4rem;
+    }
+}
